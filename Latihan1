@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <conio.h>
+
+int main () {
+	//tipe data//
+	int x,a,c;
+	int age;
+	
+	//varibel yang kita masukan//
+	scanf("%d", &a);
+	scanf("%d", &x);
+
+        age= a+x ;
+	c= a+x ;
+	
+	//hasil output//
+	printf("Your age %d\n", age);
+	printf("Nilai a : %d\n", a);
+	printf("Nilai x : %d\n", x);
+	printf("Nilai c : %d\n", c);
+	printf("Nilai a,x : %d %d\n", a,x);
+	
+	 
+	return 0;
+}
